@@ -1,0 +1,3 @@
+rootProject.name = 'InteliJ'
+include 'FileEncryptDecrypt'
+
