@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.Map;
 
 public class SocialNetworkSystem {
-    private Map<String, UserProfile> userProfiles;
+    private final Map<String, UserProfile> userProfiles;
 
     public SocialNetworkSystem() {
         userProfiles = new HashMap<>();

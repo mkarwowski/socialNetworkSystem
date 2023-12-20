@@ -3,7 +3,7 @@ package network.user;
 import java.util.List;
 
 public class UserProfileBuilder {
-    private UserProfile userProfile = new UserProfile();
+    private final UserProfile userProfile = new UserProfile();
     
     public UserProfileBuilder() {
         //nothing on purpose
